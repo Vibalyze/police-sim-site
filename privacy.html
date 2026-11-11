@@ -69,36 +69,55 @@
   <header>
     <h1>Privacy policy</h1>
   </header>
-  <p class="meta">Siren City for iOS and Android &middot; Last updated 5 November 2026 (version 1.0: no ads)</p>
+  <p class="meta">Siren City for iOS and Android &middot; Last updated 11 November 2026 (anonymous statistics and &ldquo;Write to us&rdquo; added in 1.0.2)</p>
 
   <div class="lede">
-    <p><strong>Siren City has no account and no servers of its own.</strong> Your game is saved on your phone. We collect no data about you. The only time anything leaves the device is when you buy something through Apple or Google, explained below.</p>
+    <p><strong>Siren City collects no personal data.</strong> There is no account and no ads, the game never asks who you are, and your game is saved on your phone. From version 1.0.2 it sends a few anonymous usage statistics so we can see which parts of the game work, and you can switch them off in Settings. If you write to us from the game, we receive your message.</p>
   </div>
 
   <h2>Who we are</h2>
-  <p>Siren City is made and published by Vibalyze O&Uuml;, J&auml;rvevana tee 9, 11314 Tallinn, Estonia (registry code 17240903). Contact: <a href="mailto:vibalyze@zohomail.eu">vibalyze@zohomail.eu</a>.</p>
+  <p>Siren City is made and published by Vibalyze O&Uuml;, J&auml;rvevana tee 9, 11314 Tallinn, Estonia (registry code 17240903). Vibalyze O&Uuml; is the controller for the anonymous statistics and the messages described below. Contact: <a href="mailto:vibalyze@zohomail.eu">vibalyze@zohomail.eu</a>.</p>
+
+  <h2>What the game sends (version 1.0.2 and later)</h2>
+  <p><strong>Anonymous usage statistics.</strong> The game sends short gameplay events to our own server, for example &ldquo;call solved with the exact team&rdquo;, &ldquo;shift ended with 3 stars&rdquo;, &ldquo;dispatch room upgraded to level 2&rdquo; or &ldquo;promoted to rank 3&rdquo;. Each event holds numbers and fixed labels chosen by the game, plus the app version, the operating system and its version, your phone&rsquo;s language and time zone offset, and the country of the connection.</p>
+  <ul>
+    <li>Events are tied only to a random install ID made on your phone (and a random ID per session). It is not your name, not your Apple or Google account, not a device identifier and not the advertising identifier. A new random ID replaces it after 13 months.</li>
+    <li>The server derives the country from the connection; it never stores or logs your IP address.</li>
+    <li>Raw events are deleted after 120 days. Daily totals that hold no IDs are kept for 25 months.</li>
+    <li>Offline, events wait on the phone (at most 1,000) and are sent later. The game works fully without a connection.</li>
+    <li><strong>Turn it off</strong> any time: in Settings, switch off &ldquo;Share anonymous stats&rdquo;. Off deletes the events still waiting and nothing more is sent.</li>
+  </ul>
+  <p><strong>Anonymous error reports.</strong> If the game hits a software error, it sends an &ldquo;error&rdquo; event with the kind of error, a short fingerprint, and the names of the game&rsquo;s own code files and lines where it happened, so we can find and fix the bug. The error&rsquo;s message is never sent, and nor is anything else from your phone. These reports go through the same anonymous statistics, with the same install ID, retention and off switch.</p>
+  <p><strong>Purchases.</strong> When you buy or restore Pro, the statistics note which product it was, its price and currency. The payment itself is handled entirely by the App Store or Google Play; we never see your payment details or your account.</p>
+  <p><strong>Where the install came from (iPhone only).</strong> On first launch the game asks Apple&rsquo;s AdServices framework for a token and sends it to our server once, so we can learn whether the install came from an Apple Search Ads campaign (campaign, ad group and keyword, the country and the date). It contains no advertising identifier and nothing about you, it is not tracking, and the game shows no tracking prompt. If statistics are off, nothing is sent.</p>
+  <p><strong>&ldquo;Write to us&rdquo;.</strong> If you send us a message from Settings, we receive the message, its type (bug, idea or other), the app and system details above, the install ID (so we can match a bug to what happened), and your email address only if you choose to give one so we can reply. Messages are kept for 24 months. This works even when statistics are off, because you send it on purpose.</p>
+  <p>Our server runs on Cloudflare, with the database in the European Union. Cloudflare processes the data for us as a service provider. We do not sell data, share it with advertisers or data brokers, or use it to track you across other apps or websites.</p>
 
   <h2>What stays on your device</h2>
-  <p>Your career is saved as files inside the app's own private storage: the game's random seed, the actions you took, your station, vehicles, rank and settings, and when the game was last open (so patrols can earn while you are away). Nothing in these files identifies you, and we never receive them. They are included in your phone's normal backup (iCloud or device backup on iOS, Auto Backup on Android), which Apple and Google handle under their own policies.</p>
+  <p>Your career is saved as files inside the app's own private storage: the game's random seed, the actions you took, your station, vehicles, rank and settings, and when the game was last open (so patrols can earn while you are away). Nothing in these files identifies you, and we never receive them. Small files next to them hold the random install ID, your statistics on/off choice and the events waiting to be sent. They are included in your phone's normal backup (iCloud or device backup on iOS, Auto Backup on Android), which Apple and Google handle under their own policies.</p>
   <p>There is no login, no profile, no chat, no friends list and no online leaderboard. The callers, officers and suspects in the game are invented by the game.</p>
 
-  <h2>No ads, no analytics, no tracking</h2>
-  <p>Siren City shows no ads of any kind and contains no advertising, analytics, tracking or crash-reporting SDK. It never asks for tracking permission and never reads your advertising identifier.</p>
+  <h2>No ads, no tracking</h2>
+  <p>Siren City shows no ads of any kind and contains no advertising, third-party analytics, tracking or crash-reporting SDK. It never asks for tracking permission and never reads your advertising identifier. Versions 1.0.0 and 1.0.1 send nothing at all.</p>
 
   <h2>Purchases</h2>
-  <p>Purchases (Pro, cosmetics) are processed entirely by the App Store or Google Play. We never see your payment details; we only receive the store's confirmation that a product is owned, which the app keeps on the device so it can restore your purchase. Purchases are behind a parental gate.</p>
+  <p>Purchases (Pro, cosmetics) are processed entirely by the App Store or Google Play. We never see your payment details; the app keeps the store&rsquo;s confirmation that a product is owned on the device so it can restore your purchase. Purchases are behind a parental gate.</p>
 
   <h2>The rating prompt</h2>
   <p>After a promotion the game may ask the operating system to show its standard rating sheet, a few times at most. That sheet is run by Apple or Google.</p>
 
-  <h2>Analytics and crash reports</h2>
-  <p>The app contains no analytics or crash-reporting service of ours. Apple and Google may provide us aggregated, anonymous statistics (installs, crashes) if you have agreed to share them with developers in your phone's settings.</p>
+  <h2>Deleting your data</h2>
+  <ul>
+    <li>Deleting the app deletes your save, the install ID and any events still waiting on the phone.</li>
+    <li>Turning statistics off stops all sending at once.</li>
+    <li>To have the statistics and messages from your install deleted from our server, email us. We will help you find your install and erase it.</li>
+  </ul>
 
   <h2>Children</h2>
-  <p>Siren City is a general-audience game (App Store 12+, for mild references such as a drunk-driver call). It is not directed primarily at children and is not in the Kids category. We do not knowingly collect personal data from children. There are no ads, and purchases need a parental gate.</p>
+  <p>Siren City is a general-audience game (App Store 12+, for mild references such as a drunk-driver call). It is not directed primarily at children and is not in the Kids category. The anonymous statistics identify no one, of any age. We do not knowingly collect personal data from children; if a child sends us a message with an email address, a parent can ask us to delete it. There are no ads, and purchases need a parental gate.</p>
 
   <h2>Your rights</h2>
-  <p>Under the GDPR you have the right to access, correct, delete and object. We hold no personal data about you, so there is nothing for us to hand over or delete; deleting the app deletes the save. You can also complain to the Estonian Data Protection Inspectorate (<a href="https://www.aki.ee">aki.ee</a>) or your local authority.</p>
+  <p>Under the GDPR you have the right to access, correct, delete and object. The statistics are anonymous and we cannot link them to you on our own, but if you give us your install&rsquo;s details or the email you wrote from, we will act on any request; deleting the app deletes the save. You can also complain to the Estonian Data Protection Inspectorate (<a href="https://www.aki.ee">aki.ee</a>) or your local authority.</p>
 
   <h2>Changes</h2>
   <p>If the app's data practices change, this page is updated before that version ships.</p>
